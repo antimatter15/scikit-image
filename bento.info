@@ -63,6 +63,9 @@ Library:
     Extension: skimage.filter._ctmf
         Sources:
             skimage/filter/_ctmf.pyx
+    Extension: skimage.filter._inpaint_criminisi
+        Sources:
+            skimage/filter/_inpaint_criminisi.pyx
     Extension: skimage.filter._denoise_cy
         Sources:
             skimage/filter/_denoise_cy.pyx
@@ -90,6 +93,9 @@ Library:
     Extension: skimage.morphology._greyreconstruct
         Sources:
             skimage/morphology/_greyreconstruct.pyx
+    Extension: skimage.feature.censure_cy
+        Sources:
+            skimage/feature/censure_cy.pyx
     Extension: skimage.feature._brief_cy
         Sources:
             skimage/feature/_brief_cy.pyx

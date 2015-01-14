@@ -11,6 +11,8 @@ from ._gabor import gabor_kernel, gabor_filter
 from .thresholding import threshold_otsu, threshold_adaptive
 from . import rank
 from .inpaint import inpaint_fmm
+from .inpaint_exemplar import inpaint_criminisi
+
 
 
 __all__ = ['inverse',
@@ -40,4 +42,5 @@ __all__ = ['inverse',
            'threshold_otsu',
            'threshold_adaptive',
            'rank',
-           'inpaint_fmm']
+           'inpaint_fmm',
+           'inpaint_criminisi']
