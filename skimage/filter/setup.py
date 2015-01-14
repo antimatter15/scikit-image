@@ -25,6 +25,7 @@ def configuration(parent_package='', top_path=None):
     config.add_extension('_ctmf', sources=['_ctmf.c'],
                          include_dirs=[get_numpy_include_dirs()])
     config.add_extension('_inpaint_efros', sources=['_inpaint_efros.c'],
+                         include_dirs=[get_numpy_include_dirs()])
     config.add_extension('_inpaint_criminisi',
                          sources=['_inpaint_criminisi.c'],
                          include_dirs=[get_numpy_include_dirs()])
